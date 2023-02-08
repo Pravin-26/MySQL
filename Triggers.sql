@@ -26,7 +26,7 @@ SELECT * FROM sampletable;
 /* Process - Creating a Trigger */
 DELIMITER //
 
-/* Logic is triggered before inserting column in sampletable for cost price which is less than 0 */
+/* Logic is triggered before inserting record in sampletable for cost price which is less than 0 */
 CREATE Trigger costcheckforsamplename BEFORE INSERT ON sampletable FOR EACH ROW 
 BEGIN
 IF new.cost < 0 THEN  new.cost = 0;
