@@ -5,19 +5,19 @@ CREATE DATABASE productdata;
 USE productdata;
 
 /* Create Table */
-CREATE TABLE sampletable(id int, samplename varchar(50), cost float, stock int);
+CREATE TABLE sampletable(id int, samplename varchar(50), cost int, stock int);
 
 
 /* Inserting values */
-INSERT INTO sampletable(id int, samplename varchar(50), cost float, stock int) VALUES (1, 'Apple', 50, 100 );
+INSERT INTO sampletable(id int, samplename varchar(50), cost int, stock int) VALUES (1, 'Apple', 50, 100 );
 
-INSERT INTO sampletable(id int, samplename varchar(50), cost float, stock int) VALUES (2, 'Banana', 100, 100 );
+INSERT INTO sampletable(id int, samplename varchar(50), cost int, stock int) VALUES (2, 'Banana', 100, 100 );
 
-INSERT INTO sampletable(id int, samplename varchar(50), cost float, stock int) VALUES (3, 'Orange', 150, 100 );
+INSERT INTO sampletable(id int, samplename varchar(50), cost int, stock int) VALUES (3, 'Orange', 150, 100 );
 
-INSERT INTO sampletable(id int, samplename varchar(50), cost float, stock int) VALUES (4, 'Pineapple', 200, 100 );
+INSERT INTO sampletable(id int, samplename varchar(50), cost int, stock int) VALUES (4, 'Pineapple', 200, 100 );
 
-INSERT INTO sampletable(id int, samplename varchar(50), cost float, stock int) VALUES (5, 'Mango', 250, 100 );
+INSERT INTO sampletable(id int, samplename varchar(50), cost int, stock int) VALUES (5, 'Mango', 250, 100 );
 
 /* Retreiving records from Table */
 SELECT * FROM sampletable;
